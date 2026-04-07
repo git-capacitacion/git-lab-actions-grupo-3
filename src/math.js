@@ -1,13 +1,10 @@
-const { sum, divide } = require('../src/math');
+function sum(a, b) {
+  return a + b;
+}
 
-test('sum works', () => {
-  expect(sum(2, 3)).toBe(5);
-});
+function divide(a, b) {
+  if (b === 0) throw new Error("Division by zero");
+  return a / b;
+}
 
-test('divide works', () => {
-  expect(divide(10, 2)).toBe(5);
-});
-
-test('divide by zero throws error', () => {
-  expect(() => divide(10, 0)).toThrow('Division by zero');
-});
+module.exports = { sum, divide };
