@@ -1,15 +1,23 @@
 {
-  "name": "",
+  "name": "@git-capacitacion/git-lab-actions-grupo-3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Repositorio git-actions",
   "main": "src/math.js",
   "scripts": {
     "test": "jest",
     "build": "rm -rf dist && mkdir dist && cp src/math.js dist/",
     "release": "semantic-release"
   },
-  "repository": {},
-  "publishConfig": {},
-  "author": "",
-  "license": "MIT"
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/git-capacitacion/git-lab-actions-grupo-3.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "author": "Mauricio",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
 }
