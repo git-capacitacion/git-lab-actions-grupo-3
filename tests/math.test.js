@@ -7,3 +7,7 @@ test('sum works', () => {
 test('divide works', () => {
   expect(divide(10, 2)).toBe(5);
 });
+
+test('divide by zero throws error', () => {
+  expect(() => divide(10, 0)).toThrow('Division by zero');
+});
