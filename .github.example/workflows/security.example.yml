@@ -1,0 +1,18 @@
+name: 
+
+on:
+  push:
+
+jobs:
+  :
+    runs-on: 
+
+    steps:
+      - name: Checkout repository
+
+      - name: Setup Node
+
+      - name: Install dependencies
+
+      - name: Run audit
+
