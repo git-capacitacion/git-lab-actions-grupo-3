@@ -12,6 +12,10 @@ jobs:
     strategy:
       matrix:
         node: [16, 18, 20]
+        include:
+          - node: 22
+        exclude:
+          - node: 16
       fail-fast: false
       max-parallel: 2
 
