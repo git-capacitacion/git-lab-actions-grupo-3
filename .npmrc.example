@@ -1,2 +1,2 @@
-@nombre-organizacion/nombre-repositorio:registry=https://npm.pkg.github.com
+@git-capacitacion/git-lab-actions-grupo-3:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=${NODE_AUTH_TOKEN}
